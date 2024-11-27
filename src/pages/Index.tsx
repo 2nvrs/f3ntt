@@ -69,7 +69,7 @@ const Index = () => {
                 viewport={{ once: true }}
                 className="glass-card p-6 hover:scale-[1.02] transition-transform"
               >
-                <div className="aspect-video bg-white/5 rounded-lg mb-4"></div>
+                <div className="aspect-video bg-black/50 rounded-lg mb-4"></div>
                 <h3 className="text-xl font-bold mb-2">Project {project}</h3>
                 <p className="text-white/80">A brief description of the project and the technologies used.</p>
               </motion.div>
@@ -93,7 +93,7 @@ const Index = () => {
             </p>
             <a
               href="mailto:your.email@example.com"
-              className="inline-block bg-primary text-white px-8 py-3 rounded-full hover:opacity-90 transition-opacity"
+              className="inline-block bg-white text-black px-8 py-3 rounded-full hover:opacity-90 transition-opacity"
             >
               Say Hello
             </a>

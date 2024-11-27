@@ -8,23 +8,24 @@
   }
   
   body {
-    @apply bg-secondary text-white;
-    font-family: 'Inter', sans-serif;
+    @apply bg-black text-white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
   }
 }
 
 @layer components {
   .glass-card {
-    @apply backdrop-blur-md bg-white/10 rounded-xl border border-white/20;
+    @apply backdrop-blur-md bg-secondary/80 rounded-xl border border-white/10;
   }
   
   .nav-link {
-    @apply relative text-white/80 hover:text-white transition-colors duration-300 after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+    @apply relative text-white/80 hover:text-white transition-colors duration-300 after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-white after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400;
   }
 }
