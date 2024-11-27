@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Cursor from "../components/Cursor";
+import { Discord } from "lucide-react";
 
 const Index = () => {
   return (
@@ -93,12 +94,22 @@ const Index = () => {
             <p className="text-lg text-white/80 mb-8">
               Interested in working together? Let's connect!
             </p>
-            <a
-              href="mailto:your.email@example.com"
-              className="inline-block bg-white text-black px-8 py-3 rounded-full hover:opacity-90 transition-opacity"
-            >
-              Say Hello
-            </a>
+            <div className="flex items-center justify-center gap-4">
+              <a
+                href="mailto:your.email@example.com"
+                className="inline-block bg-white text-black px-8 py-3 rounded-full hover:opacity-90 transition-opacity"
+              >
+                Say Hello
+              </a>
+              <a
+                href="https://discord.gg/your-invite-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#5865F2] hover:bg-[#4752C4] transition-colors"
+              >
+                <Discord className="w-6 h-6 text-white" />
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>
