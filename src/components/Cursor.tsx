@@ -20,7 +20,7 @@ const Cursor = () => {
   return (
     <motion.div 
       ref={cursorRef}
-      className="fixed w-8 h-8 pointer-events-none z-50"
+      className="fixed w-4 h-4 pointer-events-none z-50"
       style={{
         transform: 'translate(-50%, -50%)',
         backgroundImage: 'url(/lovable-uploads/aeee2638-80e5-430d-aff3-68353b105527.png)',
