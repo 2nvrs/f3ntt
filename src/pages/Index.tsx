@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Cursor from "../components/Cursor";
-import { Discord } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 const Index = () => {
   return (
@@ -107,7 +107,7 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#5865F2] hover:bg-[#4752C4] transition-colors"
               >
-                <Discord className="w-6 h-6 text-white" />
+                <MessageSquare className="w-6 h-6 text-white" />
               </a>
             </div>
           </motion.div>
