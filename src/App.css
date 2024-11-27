@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Custom cursor overrides for buttons and other interactive elements */
+button, a, input, select, textarea {
+  cursor: none; /* Hides the default cursor */
+}
