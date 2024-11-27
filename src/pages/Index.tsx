@@ -109,7 +109,7 @@ const Index = () => {
                 <img 
                   src="/lovable-uploads/c62b116c-b8f3-442d-8c83-3cc4d805e582.png" 
                   alt="Discord"
-                  className="w-6 h-6"
+                  className="w-8 h-6"
                 />
               </a>
             </div>
