@@ -46,7 +46,7 @@ const Index = () => {
               im a web dev who has experience in html, js, python, and lua
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {["React", "TypeScript", "Node.js", "Tailwind CSS"].map((skill) => (
+              {["javascript", "html", "lua", "python"].map((skill) => (
                 <div key={skill} className="glass-card p-4 text-center hover:scale-105 transition-transform">
                   {skill}
                 </div>
