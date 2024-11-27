@@ -104,12 +104,12 @@ const Index = () => {
                 href="https://discord.gg/your-invite-link"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#5865F2] hover:bg-[#4752C4] transition-colors"
+                className="inline-flex items-center justify-center w-12 h-12 rounded-full hover:bg-white/10 transition-colors"
               >
                 <img 
-                  src="/lovable-uploads/52f67b05-7379-4467-8ed5-491ca9bf8404.png" 
+                  src="/lovable-uploads/c62b116c-b8f3-442d-8c83-3cc4d805e582.png" 
                   alt="Discord"
-                  className="w-6 h-6 invert"
+                  className="w-6 h-6"
                 />
               </a>
             </div>
