@@ -20,25 +20,19 @@ const Cursor = () => {
   return (
     <motion.div 
       ref={cursorRef}
-      className="cursor"
+      className="fixed w-8 h-8 pointer-events-none z-50"
+      style={{
+        transform: 'translate(-50%, -50%)',
+        backgroundImage: 'url(/lovable-uploads/aeee2638-80e5-430d-aff3-68353b105527.png)',
+        backgroundSize: 'contain',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        mixBlendMode: 'difference'
+      }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-    >
-      <div className="cursor-dot" />
-      <motion.div 
-        className="cursor-outline"
-        animate={{
-          scale: [1, 1.2, 1],
-          opacity: [1, 0.8, 1]
-        }}
-        transition={{
-          duration: 1.5,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      />
-    </motion.div>
+    />
   );
 };
 

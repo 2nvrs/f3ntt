@@ -27,26 +27,6 @@
   .nav-link {
     @apply relative text-white/80 hover:text-white transition-colors duration-300 after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-white after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
   }
-
-  .cursor {
-    @apply fixed w-8 h-8 pointer-events-none mix-blend-difference z-50;
-    transform: translate(-50%, -50%);
-  }
-
-  .cursor-dot {
-    @apply absolute top-1/2 left-1/2 w-1 h-1 bg-white rounded-full;
-    transform: translate(-50%, -50%);
-  }
-
-  .cursor-outline {
-    @apply absolute top-1/2 left-1/2 w-8 h-8 border border-white rounded-full;
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 0.15s ease-out;
-  }
-
-  .cursor:hover .cursor-outline {
-    transform: translate(-50%, -50%) scale(1);
-  }
 }
 
 @layer utilities {
