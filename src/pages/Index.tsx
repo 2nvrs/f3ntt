@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
+import Cursor from "../components/Cursor";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Cursor />
       <nav className="fixed w-full z-50 px-6 py-4 backdrop-blur-md bg-secondary/80 border-b border-white/10">
         <div className="container mx-auto flex justify-between items-center">
           <a href="#" className="text-2xl font-bold text-gradient">Portfolio</a>
